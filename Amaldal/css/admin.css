@@ -1,0 +1,244 @@
+
+body {background:#f1f1f1}
+a {text-decoration:none;outline:none} ul {list-style:none;position:relative}
+* {margin:0;padding:0;outline:none}
+a:hover{text-decoration:none}
+em {font-style:normal}
+/* -------------------------------------HEADER --------------------------------- */
+header {
+	position:fixed;
+	height:60px;
+	/* background:url("../images/bg_top.jpg") 25% 358px; */
+	background:#fff;
+	width:100%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	top:0;
+	 background:url("../images/bg_top.jpg") 25% 358px;
+	z-index:119;
+	overflow:hidden}
+header > .content > ul {overflow:hidden;margin:5px 0 0 0 }
+header .menu1 > li > a {display:block;color:#424242;font-weight:600;font-size:14px;line-height:55px;text-align:center}
+header .logo  img {width:80px}
+header .menuadmin {
+	text-align:right;
+	position:relative;}
+header .menuadmin > li {display:inline-block;}
+header .menuadmin > li > a {
+	display:block;
+	font-size:14px;
+	color:#fff;
+	padding:15px;
+	background: url(../images/button.png);}
+header .menuadmin > li > a > i {margin:0 5px}
+/* -------------------------------------MENU LEFT --------------------------------- */
+#menu-left {
+	width:250px;
+	background:#fff;
+	position:fixed;
+	height:100%;
+	top:61px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	z-index:112}
+#menu-left .helo {
+	margin:20px 10px 10px 10px ;
+	padding:10px;
+	background:#f1f1f1;
+	text-align:right;}
+#menu-left .helo > span{
+	font-weight:600;
+	color:#1B7AD4;}
+#menu-left .helo > a{
+	color:#E6001E;}
+#menu-left .tendanhmuc {
+	font-size:20px;
+	font-weight:600;
+	text-transform:uppercase;
+	color:#1B7AD4;
+	text-align:right;
+	border-bottom:3px ridge #ECE7E7;
+	padding-bottom:15px;
+	padding-top:15px;
+	margin-bottom:0;}
+#menu-left .tendanhmuc > img {width:35px;vertical-align:-5px;margin-right:10px;}
+#menu-left .danhmucmenu {
+	margin:20px;
+	position:relative;}
+#menu-left .danhmucmenu > .dmcap1{
+	padding-bottom:10px;
+	padding-top:15px;
+	margin:0;}
+#menu-left .danhmucmenu > .dmcap1:hover {box-shadow:-16px 0 30px rgba(0,0,0,0.25);transition:all 0.5s ease} #menu-left .danhmucmenu > .dmcap1:hover a {padding-right:20px;transition:all 0.5s ease;}
+#menu-left .danhmucmenu > .dmcap1 > a {
+	font-size:14px;
+	text-align:right;
+	display:block;
+	color:#424242;
+    word-spacing: 4px;}
+#menu-left .danhmucmenu > .dmcap2{
+	margin:0;
+	padding:5px 0;}
+#menu-left .danhmucmenu > .dmcap2 > a {
+	text-transform:uppercase;
+	font-size:14px;
+	text-align:right;
+	display:block;
+	color:#424242;
+    word-spacing: 2px;}
+	
+#menu-left  .followme {
+	margin:20px;
+	position:relative;}
+#menu-left  .followme > p {text-align:right}	
+	
+/* -------------------------------------CONTENT --------------------------------- */
+section {position:relative;z-index:111;margin-left:250px;margin-top:71px}
+section > .content {margin-left:20px;margin-right:15px}
+
+section .main-content  {background:#fff; padding-top:10px;box-shadow: 0 0 5px rgba(0,0,0,0.25);}
+section .adduser > .nameadd {
+	font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1B7AD4;
+    border-bottom: 3px ridge #ECE7E7;
+    padding-bottom: 15px;
+    padding-top: 22px;
+    margin-bottom: 0;
+	margin-left:10px;
+	margin-right:10px;position:relative;}
+.formthemmoi {position:relative;display:block;overflow:hidden;margin:20px 10px;margin-top:30px;padding-bottom:20px}
+.formthemmoi > li {padding-bottom:15px;padding-top:5px;height:45px}
+ .formthemmoi > .bpn >input {background:none;font-weight:600}
+.formthemmoi > li > span {
+	width:20%;
+	padding: 0 10px;
+	display: inline-block;}
+	
+.formthemmoi > .nhap1a > input {padding:2px 10px; border:none;border-bottom:1px dotted #424242;width:70%}
+.formthemmoi > .nhap1a > em {display:inline-block;padding:5px;padding-left:15px;margin-right:15%; width: 115px;}
+.formthemmoi > .nhap1a > em  > input {margin-right:10px}
+.formthemmoi > .nhap1b > button {
+	width:71%;margin-left:20%;
+	display:block;padding:5px; 
+	background:url("../images/bg_top.jpg") 52% 37px;
+	color:#fff;text-transform:uppercase;
+	font-size:16px}
+.damlen {font-weight:600;}
+/* -------------------------------------INDEX ADMIN --------------------------------- */
+.listtv {
+	margin:10px;margin-bottom:0;
+	background:url("../images/bg_top.jpg")  38% 44px;}
+.listtv > .listtd{
+	padding-top:10px;padding-bottom:10px;
+	font-weight:600;
+	text-transform:uppercase;
+	color:#fff;text-align:center;
+	border:1px solid #fff}
+.ragiua {text-align:center}
+.listct {margin:0 10px;border:1px solid #A9CCFF;border-top:none}
+.listct > .listtd {padding-bottom:10px;padding-top:10px;}
+.listct > .listtd  > a {padding:5px 10px}
+.sochan {background:#f1f1f1}
+.maucx {color:#E6001E;}
+/* -------------------------------------ANIMATION CLOUD --------------------------------- */
+.anicld1 {
+	width: 58%;
+    position: absolute;
+    top: -90px;
+	right:-123px}
+.anicld {
+	width: 35%;
+    position: absolute;
+    top: -50px;
+    left: 0;}
+.anicld2 {
+	width: 35%;
+    position: absolute;
+    top: -50px;
+    left: -300px;}
+	
+/* ------------------------------------ CHI TIẾT --------------------------------- */
+	
+.linksp {margin:0px 10px;font-size:14px;padding:10px ;background:#f1f1f1 }
+.linksp > span > i {font-size:8px; vertical-align:2px;letter-spacing:-4px}	
+.linksp > span {display:inline-block;margin:0 10px}
+	
+
+/* ------------------------------------ LOGIN --------------------------------- */
+
+.login-ct  > img{width:100%;height:100%;position:absolute;z-index:11}
+.loginform {position:relative;z-index:12;width:800px;margin:auto}
+.loginform > img {position:absolute;z-index:22}
+.loginform > .lg-logo {position:relative;z-index:23;}
+.loginform > .lg-logo > a {display: block;  padding-top: 185px; text-align:center;width:200px;margin:auto}
+.loginform > .lg-logo > a >img {width:120px}
+.loginform > form {position:relative;z-index:24;width:360px;margin:auto;}
+.loginform > form > .inpu {    
+	display: block;
+    margin-left: 42px;
+    width: 281px;
+    height: 41px;
+    margin-top: 12px;
+	color:#fff;
+	border-radius:5px;
+	background:none;
+	border:none;
+	padding-left:40px;
+	font-size:16px;}
+.loginform > form > .baoloi {
+	position: relative;
+    display: block;
+    margin: 10px 36px 5px 44px;
+    color: #CA0000;
+	font-size:12px}
+.loginform > form > input.inpe {
+    width: 285px;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 10px 0;
+	background:#fff;
+	color:#222;
+	font-weight:600;
+}
+#baoloi { background-color: #f1f1f1;margin: 0 10px 10px 10px;}
+#baoloi > span {    
+	display:block;
+    padding: 10px 20px;}
+/* ------------------------------------DANH MỤC --------------------------------- */
+.dm1 > .formthemmoi {margin-left:0}
+.dm1  li > span {width:25%}
+.dm1  .nhap1b > button {margin-left:25%;}
+.danhmuchc {margin-top:20px;padding-left:10px}
+.danhmuchc > p > span {font-weight:600;font-style:italic;color:red}
+.danhmuchc > p {padding:20px;background:#f1f1f1;margin:0;}
+.unset {    position: absolute;
+    color: #BD1212;
+    top: 10px;
+    right: 24px;}
+	
+/* -----------------------------------SẢN PHẨM --------------------------------- */
+.sanphamadd .formthemmoi > li > span {padding-left:0;width:28%}
+.sanphamadd .formthemmoi > li > select {padding:2px 10px; border:none;border-bottom:1px dotted #424242;width:70%;margin-left:-4px}
+.sanphamadd .formthemmoi {border:1px solid #f1f1f1;margin-top:20px;padding-top:30px;position:relative;padding-bottom:10px;width:98%;}
+.sanphamadd .formthemmoi > .nhap1a > input {display:inline-block;}
+.sanphamadd .nhandan1 {position:absolute;top:0;background:#f1f1f1;font-weight:600;right:0;padding:5px 10px}
+.sanphamadd .formthemmoi > li > textarea {
+	text-indent:75px;padding:2px 10px;
+	border:none;line-height: 28px;
+	width:99%;resize:none;height:310px;
+	background: url(../images/bg-txt.jpg) 0 0;}
+.sanphamadd .fixli1 {height:auto;margin-right:0;padding-right:0}
+.sanphamadd .fixli1 > span {position:absolute;top:8px;background:#fff;width:auto !important;font-weight:600;height:30px;}
+.namesize > h4 {font-weight:600; border-bottom:2px solid #424242;padding-bottom:5px;font-size:14px;cursor:pointer;}
+#sizesp > li {height:auto}
+#sizesp > li > .thep1 {width:30%;display:inline-block;}
+#sizesp > li > .thep1 > input {width:50px;margin-left:10px;border:none;font-weight:600;font-size:16px}
+#sizesp > li > .thep2 {width:60%;display:inline-block;}
+#sizesp > li > .thep2 > input {padding:2px 10px ;border:none; border-bottom:1px dotted #424242;font-weight:bold;width:180px} 
+#sizesp > li {padding-bottom:5px}
+.nobo {border:none !important;}
+.mautrang {color:#fff}
+#hieuung2, #hieuung22, #hieuung222, #hieuung2222 {display:none}
+#sub,#cancle {background:none;border:none;font-weight:600;font-size:14px;color:green;position:absolute;right:10px;top:25px}
+#sub >i,#cancle > i{font-weight:400;margin-right:10px;border:1px solid green;border-radius:50px;padding:5px;font-size:12px}
+#cancle {color:#E6001E; right:135px;text-transform:capitalize;} #cancle  > i {border:1px solid #E6001E}

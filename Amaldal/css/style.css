@@ -1,0 +1,232 @@
+
+body {background:#f1f1f1}
+a {text-decoration:none;outline:none} ul {list-style:none;position:relative}
+* {margin:0;padding:0}
+a:hover{text-decoration:none}
+em {font-style:normal}
+/* -------------------------------------HEADER --------------------------------- */
+header {
+	position:fixed;
+	height:60px;
+	/* background:url("../images/bg_top.jpg") 25% 358px; */
+	background:#fff;
+	width:100%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	top:0;
+	 background:url("../images/bg_top.jpg") 25% 358px;
+	z-index:119;
+	overflow:hidden}
+header > .content {margin-left:250px}
+header > .content > ul {overflow:hidden;margin:5px 0 0 0 }
+header .menu1 > li{
+	float:left;
+	width:20%}
+header .menu1 > li > a {display:block;color:#424242;font-weight:600;font-size:14px;line-height:55px;text-align:center; text-shadow: 1px 1px 5px #fff;}
+header .menu1 > li > a > i {margin-right:5px}
+header .logo  img {width:80px}
+header .shopcart  img {width: 53px; margin-top: -6px;}
+header .shopcart > a > span {
+    color: #fff;
+    background-color: #8AB3CB;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: -32px;
+    padding-right: 30px;
+	border:1px solid #fff}
+
+/* -------------------------------------MENU LEFT --------------------------------- */
+#menu-left {
+	width:250px;
+	background:#fff;
+	position:fixed;
+	height:100%;
+	top:61px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	z-index:112}
+#menu-left .timkiem {
+	margin:40px 20px ;
+	border:2px solid #424242;
+	position:relative;}
+#menu-left .timkiem  .ip1 {
+	width:100%;
+	padding:5px 10px;
+	border:none;
+	background:none}	
+#menu-left .timkiem  .ip2 {
+	width: 50px;
+    background: url(../images/icon_sot.png) no-repeat;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+	height:100%;
+	background-position: 15px 5px;}
+
+#menu-left .danhmucmenu {
+	margin:20px;
+	position:relative;}
+#menu-left .danhmucmenu > .dmcap1{
+	padding-bottom:10px;
+	padding-top:15px;
+	margin:0;}
+#menu-left .danhmucmenu > .dmcap1:hover {box-shadow:-16px 0 30px rgba(0,0,0,0.25);transition:all 0.5s ease} #menu-left .danhmucmenu > .dmcap1:hover a {padding-right:20px;transition:all 0.5s ease;}
+#menu-left .danhmucmenu > .dmcap1 > a {
+	text-transform:uppercase;
+	font-size:16px;
+	text-align:right;
+	font-weight:700;
+	display:block;
+	color:#424242;
+    word-spacing: 4px;
+	text-shadow: 1px 1px 3px #424242;}
+#menu-left .danhmucmenu > .dmcap2{
+	margin:0;
+	padding:5px 0;}
+#menu-left .danhmucmenu > .dmcap2 > a {
+	text-transform:uppercase;
+	font-size:14px;
+	text-align:right;
+	display:block;
+	color:#424242;
+    word-spacing: 2px;}
+	
+#menu-left  .followme {
+	margin:20px;
+	position:relative;}
+#menu-left  .followme > p {text-align:right}	
+	
+/* -------------------------------------CONTENT --------------------------------- */
+section {position:relative;z-index:111;margin-left:250px;margin-top:76px}
+section > .content {margin-left:20px;margin-right:15px}
+section .slider {
+	width:100%;
+	overflow:hidden;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	padding:5px;
+	background:#fff}
+section .jgallery.jgallery-slider.text-shadow {
+    width: 99% !important;
+	height:350px !important;} 
+	
+.main-content  {
+	background:#fff;padding-top:10px
+}
+.main-content .title-sp {
+	font-size:16px;
+	text-transform:uppercase;
+	color:#fff;
+	background: #222526 url("../images/bg_top.jpg") 0 -95px;
+	padding:10px 20px;
+	font-weight:700;
+	margin-top:10px;
+	margin-bottom:0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	border:1px solid #fff}	
+.main-content .spham > img {
+	width: 260px;
+    margin: 20px auto;
+    height: 250px;
+	display:block;}
+.main-content .spham > .price-sp	{color:#ce5747;font-size:24px;font-weight:600;letter-spacing:3px}
+.main-content .spham > .namesp {color:#424242;font-weight:600;font-size:14px;margin-top:0;margin-bottom:5px;letter-spacing:1px;word-spacing:1px}
+.main-content .spham > .motasp {text-align:justify;font-size:12px;height:33px;overflow:hidden}
+.main-content .spham > .addca {margin-top:20px}
+.main-content .spham  {border: 1px solid #EAE1E1; }
+
+.main-content .spham:hover {box-shadow: 0 0 50px rgba(0,0,0,0.5);transition:all 0.5s ease}
+.main-content .spham:hover > .anhhieuung {
+	animation-name: tossing;
+	-webkit-animation-name: tossing;
+
+	animation-duration: 2.5s;
+	-webkit-animation-duration: 2.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+/* -------------------------------------FOOTER --------------------------------- */
+footer {
+	background:#fff;
+	margin-top:15px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	padding:30px 0 10px 0}
+footer .fmota1 > h4 {
+	font-size:14px;
+	font-weight:700;
+	color:#0e81ae;
+	margin:0;
+	padding:0;
+	margin-bottom:10px;}
+footer .fmota1 > p {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	text-align:justify;}
+footer .fmota1 .endft{
+	margin:10px 0;
+	padding-top:10px;
+	border-top:1px solid #424242;}
+footer .fmota2 > img {
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    width: 160px;}
+/* -------------------------------------ANIMATION CLOUD --------------------------------- */
+.anicld1 {
+	width: 58%;
+    position: absolute;
+    top: -85px;}
+.anicld {
+	width: 35%;
+    position: absolute;
+    top: -50px;
+    left: 0;}
+.anicld2 {
+	width: 35%;
+    position: absolute;
+    top: -50px;
+    left: -300px;}
+	
+/* ------------------------------------ CHI TIẾT --------------------------------- */
+	
+.linksp {margin:5px 15px;font-size:14px;background:#f1f1f1;padding:10px  }
+.linksp > span > i {font-size:8px; vertical-align:2px;letter-spacing:-4px}	
+.linksp > span {display:inline-block;margin:0 10px}
+#chitietsp .ct-chitiet {padding-bottom:15px;margin-top:20px;position:relative;display:block}
+#chitietsp .hinhsp .hinhmota {
+	border:1px solid #f1f1f1;
+	display:block;}
+#chitietsp .hinhsp .hinhmota  > img {width:95%;margin:10px auto;display:block}
+#chitietsp .ct-chitiet .motasanpham {padding-left:20px;}
+#chitietsp .ct-chitiet .motasanpham > h3{margin:0 0 10px 0;font-size:18px;font-weight:600;color:#066EAB}
+#chitietsp .ct-chitiet .motasanpham > .giasp {
+	background: #222526 url("../images/bg_top.jpg") -489px 0;
+	padding:30px;
+	font-size:20px;
+	color:#fff;
+	font-weight:700;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	border:1px solid #fff;
+	margin-top:15px;
+	margin-bottom:15px}
+#chitietsp .ct-chitiet .motasanpham > .giasp >em {font-size:30px}
+#chitietsp .ct-chitiet .motasanpham > .mh1  > a {display:block;margin-top:25px}
+#chitietsp .ct-chitiet .motasanpham > .mh1  > a > img {width:180px}
+#chitietsp .ct-chitiet .motasanpham > .mh1 {font-size:14px;color:#424242;margin:0;padding:0}
+#chitietsp .ct-chitiet .motasanpham > .size1 {margin:15px 0}
+#chitietsp .ct-chitiet .motasanpham > .size1 >em {padding:5px;font-weight:600;border:1px solid #066EAB;margin-left:7px}
+#chitietsp .anhsplienquan {margin:20px}
+#chitietsp .anhsplienquan >.col-md-6 > img{width:90%;display:block;margin:10px auto}
+#chitietsp .anhsplienquan  > p {padding:20px;background:#f1f1f1}
+
+.kmne .anhkm {
+	position: absolute;
+    top: -20px;
+    width: 34px !important;
+    height: auto !important;
+    left: 20px;}
+.kmne strong {
+	    color: #6B6868;
+    text-decoration: line-through;
+    font-size: 18px;
+    padding-left: 40px;}
